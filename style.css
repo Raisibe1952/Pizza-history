@@ -1,0 +1,43 @@
+
+body {
+    background-color: #FFF3B0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.box {
+    border: 1px solid #335C67;
+    padding: 1em;
+    margin: 1em;
+    background-color: #335C67;
+    /*width: 50em;*/
+ 
+    
+}
+
+
+
+.middle > div {
+    margin: 0.25em;
+    padding: 1em;
+    background-color: #E09F3E;
+}
+.pizza_style > div {
+    flex: 1;
+}
+
+@media screen and (min-width: 760px) {
+    .middle {
+        display: flex;
+    }
+    .pizza_style {
+        display: flex; 
+        background-color: #99A88C ;
+        margin: 1em;
+        padding: 1em;
+     }
+}
